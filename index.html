@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<script>
+		localStorage.txt1 = "Hello World!";
+		document.write(localStorage.txt1);
+		
+		localStorage["txt2"] = "Hello 2018!";
+		document.write(localStorage["txt2"]);
+		
+		localStorage.setItem("key","value");
+		document.write(localStorage.getItem("key"));
+		document.write(localStorage.removeItem("key"));
+		
+		//document.write(localStorage.clear());
+		
+		//document.write(localStorage.length);
+		
+		
+		
+		sessionStorage.t1 = "Morning";
+		document.write(sessionStorage.t1);
+		
+		sessionStorage["t2"]="Good Morning";
+		document.write(sessionStorage["t2"]);
+		
+		sessionStorage.setItem("name" , "Jack");
+		document.write(sessionStorage.getItem("name"));
+		document.write(sessionStorage.removeItem("name"));
+		document.write(sessionStorage.clear());
+		//document.write(sessionStorage.length);
+		
+	</script>
+	<body>
+		
+	</body>
+</html>
